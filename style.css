@@ -1,0 +1,832 @@
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+body{
+    /* background-color: #05141f; */
+    background-color: #05141f;
+}
+
+nav{
+    background-color: #05141f;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    height: 4rem;
+    text-align: center;
+}
+nav .first-ul{
+    display: flex;
+    color: white;
+    list-style: none;
+    width: 33vw;
+    justify-content: space-evenly;
+    align-self: center;
+    font-size: small;
+    
+   
+}
+
+nav .first-ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.logo{
+    width: 9vw;
+    color: white;
+    font-size:xx-large;
+    align-self: center;
+}
+nav .second-ul{
+    display: flex;
+    list-style: none;
+    width: 33vw;
+    justify-content: space-around;
+    align-self: center;
+   
+}
+nav .second-ul li{
+    height: 4rem;
+    
+}
+nav .second-ul li a{
+    height: 4rem;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;    
+    
+}
+nav .second-ul li a:focus{
+    font-weight: bold;
+    border-bottom: 5px solid #ea0029;
+    position: relative;
+    bottom: -2px;
+}
+
+
+.hero{
+    background-color: #05141f;
+}
+.hero-img{
+    width: 100vw;
+    min-height: auto;
+}
+.hero .slogan{
+
+    position: absolute;
+    left: 5rem;
+    bottom:10rem;
+    color: white;
+    
+
+}
+.hero .slogan p{
+    font-size: 3.125rem;
+    font-weight: 300;
+}
+.hero .slogan h1{
+    font-size:3.125rem;
+
+}
+.inspiration{
+    font-size: 8rem;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 8rem;
+    background: -webkit-linear-gradient(45deg, #f70000 40%, #f7a601 55%, #d9eb25 63%, #30ce4b 75%);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+ 
+
+}
+.tagline{
+    padding-bottom: 10rem;
+}
+.tagline p{
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+    font-weight: 300;
+}
+.tagline p:last-child{
+    font-weight: 500;
+}
+.videos{
+    width: 85vw;
+    /* height: 100rem; */
+    background-color:#05141f;
+    position: relative;
+    left:7.5%
+    
+    
+}
+.first-video-div{
+    display: flex;
+    justify-content: space-between;
+
+}
+.first-video{
+    width: 37rem;
+   
+}
+.first-qoute{    
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 2.5rem;
+    font-weight: 300;
+    padding-right: 7rem;
+    color: white;
+}
+.first-qoute p:last-child{
+    background: -webkit-linear-gradient(45deg, #f70000 40%, #f7a601 55%, #d9eb25 63%, #30ce4b 75%);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+}
+
+.second-video-div{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4rem;
+
+}
+.second-video{
+    width: 37rem;
+   
+}
+.second-qoute{    
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 2.5rem;
+    font-weight: 300;
+    padding-left: 7rem;
+    color: white;
+}
+.second-qoute p:last-child{
+    background: -webkit-linear-gradient(45deg, #f70000 40%, #f7a601 55%, #d9eb25 63%, #30ce4b 75%);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+}
+
+.third-video-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 4rem;
+    margin-bottom: 6rem;
+
+}
+.third-video{
+    width: auto;
+   
+}
+.third-qoute{    
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+    font-weight: 300;
+    color: white;
+    margin-top: 1.5rem;
+    /* word-spacing: 2rem; */
+}
+.third-qoute p:nth-child(2){
+    font-size: 10rem;
+    background: -webkit-linear-gradient(45deg, #f70000 40%, #f7a601 55%, #d9eb25 63%, #30ce4b 75%);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+    margin-top: -45px;
+    margin-bottom: -20px;
+}
+
+.fourth-video-div{
+    display: flex;
+    justify-content: space-between;
+
+}
+.fourth-video{
+    width: 37rem;
+   
+}
+.fourth-qoute{    
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 2.5rem;
+    font-weight: 300;
+    padding-right: 10rem;
+    color: white;
+}
+.fourth-qoute p:last-child{
+    background: -webkit-linear-gradient(45deg, #f70000 40%, #f7a601 55%, #d9eb25 63%, #30ce4b 75%);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+}
+
+.fifth-video-div{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 7rem;
+
+}
+.fifth-video{
+    width: 37rem;
+   
+}
+.fifth-qoute{    
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 2.5rem;
+    font-weight: 300;
+    padding-left: 7rem;
+    color: white;
+}
+.fifth-qoute p:nth-child(2){
+    background: -webkit-linear-gradient(45deg, #f70000 40%, #f7a601 55%, #d9eb25 63%, #30ce4b 75%);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+}
+
+
+.sixth-video-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 8rem;
+
+
+}
+
+.sixth-qoute{    
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 7rem;
+    font-size: 2.5rem;
+    font-weight: 300;
+    color: white;
+    margin-top: 1.5rem;
+    margin-bottom: 8rem;
+    /* word-spacing: 2rem; */
+}
+.sixth-qoute p:nth-child(2) span{
+    font-weight: 500;
+    background: -webkit-linear-gradient(45deg, #f70000 40%, #f7a601 55%, #d9eb25 63%, #30ce4b 75%);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+    
+}
+
+.sixth-video{
+    width: auto;
+   
+}
+
+.question{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.question h1{
+    margin-top:3rem;
+    color:white;
+    font-size: 2.5rem;
+}
+.question ul{
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    margin-top:1.5rem;
+}
+.question li{
+    list-style: none;
+    width: 10rem;
+   
+
+}
+.question li a{
+    text-decoration: none;
+    color:white;
+    background-color: #24323d;
+    margin-left: .5rem;
+    font-size: small;
+    font-weight: 200;
+    padding-top:5px;
+    padding-bottom: 4px;
+    border-radius: 2px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+          
+}
+
+.question li a:hover{
+    background-color: white;
+    color: #05141f;
+    font-weight: 700;
+}
+.question h3:nth-child(3){
+    margin-top: 1.8rem;
+    font-size:1.3rem;
+    font-weight: 500;
+    color: white;
+}
+.question h3:nth-child(4){
+    font-size:1.3rem;
+    font-weight: 500;
+    color: white;
+}
+.question button{
+    margin-top: 2rem;
+    width: 7.5rem;
+    font-weight:bold;
+    color: #05141f;
+    border-radius: 5rem;
+    border: none;
+    height: 1.6rem;
+    cursor: pointer;
+}
+.question button:hover{
+    background-color: #24323d;
+    color: white;
+}
+
+footer{
+    margin-top: 4rem;
+    background-color: white;
+    
+    
+}
+.inspiring-cars{
+    width: 85vw;
+    position: relative;
+    left:7.5%;
+    padding-bottom: 4rem;
+}
+footer h3{
+    padding-top: 5rem;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+.cars{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+
+}
+.cars .car1-div{
+    width: 20rem;
+}
+.cars .car1-div .car1{
+    margin-top: 1.5rem;
+    margin-left: 2rem;
+    width: 12rem;
+} 
+.cars .car1-div h4{
+    margin-top: 2.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.cars .car1-div h5{
+    margin-top: .5rem;
+    font-size: .7rem;
+    font-weight: 400;
+}
+
+.cars .car2-div{
+    width: 20rem;
+}
+.cars .car2-div .car2{
+    margin-top: 1rem;
+    width: 14rem;
+} 
+.cars .car2-div h4{
+    margin-top: 1.7rem;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.cars .car2-div h5{
+    margin-top: .5rem;
+    font-size: .7rem;
+    font-weight: 400;
+}
+
+.cars .car3-div{
+    width: 20rem;
+}
+.cars .car3-div .car3{
+    width: 19rem;
+} 
+.cars .car3-div h4{
+    margin-top: 2rem;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.cars .car3-div h5{
+    margin-top: .5rem;
+    font-size: .7rem;
+    font-weight: 400;
+}
+
+@media only screen and (max-width: 600px){
+    nav .second-ul{
+        margin-right: 1rem;
+    }
+    nav .second-ul li a{
+        font-size: 1.8vw;
+        padding-left: 0.8rem;
+    }
+    nav .first-ul li a{
+        font-size: 1.8vw;
+        
+    }
+    .logo{
+        font-size: 3vw;
+    }
+  
+    .hero .slogan{
+        left: 5vw;
+        bottom: 62vh;
+    
+    }
+    .hero .slogan p{
+        font-size: 8.3vw;
+        font-weight: 300;
+    }
+    .hero .slogan h1{
+        font-size: 8.3vw;
+    
+    }
+    .inspiration{
+        font-size: 13vw;
+        margin-top: 4rem;
+    }
+    .tagline{
+        padding-bottom: 4rem;
+    }
+    .tagline p {
+        font-size: 1rem;
+    }
+    .first-video-div{
+     flex-wrap: wrap;
+    }
+    .first-video{
+        width:100%;
+    }
+    .first-qoute{
+        font-size: 6.7vw;
+    }
+    .second-video-div{
+        flex-wrap: wrap;
+        justify-content: flex-end;
+    }
+    .second-qoute{
+        font-size: 6.7vw;
+    }
+    .second-video{
+        width:100%;
+    }
+    .third-qoute {
+        font-size: 6vw;
+    }
+    .third-qoute p:nth-child(2){
+        font-size: 13vw;
+        margin-top: -0.25rem;
+        margin-bottom: 0.375rem
+    }
+    .fourth-video-div{
+        flex-wrap: wrap;
+    }
+    .fourth-video{
+        width:100%;
+    }
+    .fourth-qoute{
+        font-size: 6.7vw;
+    }
+    .fifth-video-div{
+        flex-wrap: wrap;
+        justify-content: flex-end;
+    }
+    .fifth-qoute{
+        font-size: 6.7vw;
+    }
+    .fifth-video{
+        width:100%;
+    }
+    .sixth-qoute{
+        padding: 0;
+        font-size: 6.7vw;
+    }
+    .question h1 {
+        font-size: 7vw;
+    }
+    .question ul{
+       
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .question li{
+        padding: .5rem;
+    }
+    .question h3:nth-child(3){
+        font-size: 3.5vw;
+    }
+    .question h3:nth-child(4){
+        font-size: 3.5vw;
+    }
+    footer h3{
+        font-size: 5vw;
+    }
+    .cars{
+        flex-direction: column;
+        align-items: center;
+    }
+    .cars div{
+        padding:1rem;
+    }
+  
+}
+
+@media only screen and (min-width: 601px) and (max-width:768px){
+    nav .second-ul{
+        width: 45vw;
+        justify-content: space-evenly;
+        margin-right: 1rem;
+    }
+    nav .second-ul li a{
+        font-size: 1.5vw;
+        padding-left: 0.8rem;
+    }
+    nav .first-ul li a{
+        font-size: 1.5vw;
+        
+    }
+    .logo{
+        font-size: 3vw;
+    }
+    .hero .slogan{
+        left: 5vw;
+        bottom: 44vh;
+    
+    }
+    .hero .slogan p{
+        font-size: 8.3vw;
+        font-weight: 300;
+    }
+    .hero .slogan h1{
+        font-size: 8.3vw;
+    
+    }
+    .inspiration{
+        font-size: 13vw;
+        margin-top: 4rem;
+    }
+    .tagline{
+        padding-bottom: 4rem;
+    }
+    .tagline p {
+        font-size: 1rem;
+    }
+    .first-video-div{
+     flex-wrap: wrap;
+    }
+    .first-video{
+        width:100%;
+    }
+    .first-qoute{
+        font-size: 6.7vw;
+    }
+    .second-video-div{
+        flex-wrap: wrap;
+        justify-content: flex-end;
+    }
+    .second-qoute{
+        font-size: 6.7vw;
+    }
+    .second-video{
+        width:100%;
+    }
+    .third-qoute {
+        font-size: 6vw;
+    }
+    .third-qoute p:nth-child(2){
+        font-size: 13vw;
+        margin-top: -0.25rem;
+        margin-bottom: 0.375rem
+    }
+    .fourth-video-div{
+        flex-wrap: wrap;
+    }
+    .fourth-video{
+        width:100%;
+    }
+    .fourth-qoute{
+        font-size: 6.7vw;
+    }
+    .fifth-video-div{
+        flex-wrap: wrap;
+        justify-content: flex-end;
+    }
+    .fifth-qoute{
+        font-size: 6.7vw;
+    }
+    .fifth-video{
+        width:100%;
+    }
+    .sixth-qoute{
+        padding: 0;
+        font-size: 6.7vw;
+    }
+    .question h1 {
+        font-size: 7vw;
+    }
+    .question ul{
+       
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .question li{
+        padding: .5rem;
+    }
+    .question h3:nth-child(3){
+        font-size: 3.5vw;
+    }
+    .question h3:nth-child(4){
+        font-size: 3.5vw;
+    }
+    footer h3{
+        font-size: 5vw;
+    }
+    .cars{
+        flex-direction: column;
+        align-items: center;
+    }
+    .cars div{
+        padding:1rem;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width:1200px){
+    nav .second-ul{
+        width: 45vw;
+        justify-content: space-evenly;
+        margin-right: 1rem;
+    }
+    nav .second-ul li a{
+        font-size: 1.5vw;
+        padding-left: 0.8rem;
+    }
+    nav .first-ul li a{
+        font-size: 1.3vw;
+        
+    }
+    .logo{
+        font-size: 3vw;
+    }
+    .hero .slogan{
+        left: 5vw;
+        bottom: 31vh;
+    
+    }
+    .hero .slogan p{
+        font-size: 5.3vw;
+        font-weight: 300;
+    }
+    .hero .slogan h1{
+        font-size: 5.3vw;
+    
+    }
+    .inspiration{
+        font-size: 13vw;
+        margin-top: 4rem;
+    }
+    .tagline{
+        padding-bottom: 4rem;
+    }
+    .tagline p {
+        font-size: 2rem;
+    }
+    .first-video-div{
+     /* flex-wrap: wrap; */
+    }
+    .first-video{
+        width:57vw;
+    }
+    .first-qoute{
+        font-size: 3.7vw;
+        padding-right: 0;
+    }
+    .second-video-div{
+        /* flex-wrap: wrap; */
+        /* justify-content: flex-end; */
+    }
+    .second-qoute{
+        font-size: 3.7vw;
+        padding-left: 0;
+    }
+    .second-video{
+        width:57vw;
+    }
+    .third-qoute {
+        font-size: 3.7vw;
+    }
+    .third-qoute p:nth-child(2){
+        font-size: 13vw;
+        margin-top: -0.25rem;
+        margin-bottom: 0.375rem
+    }
+    .fourth-video-div{
+        /* flex-wrap: wrap; */
+    }
+    .fourth-video{
+        width:57vw;
+    }
+    .fourth-qoute{
+        font-size: 3.7vw;
+        padding-right: 0;
+    }
+    .fifth-video-div{
+        /* flex-wrap: wrap;
+        justify-content: flex-end; */
+    }
+    .fifth-qoute{
+        font-size: 3.7vw;
+        padding-left: 0;
+    }
+    .fifth-video{
+        width:57vw;
+    }
+    .sixth-qoute{
+        padding: 10vw;
+        font-size: 3.7vw;
+    }
+    .question h1 {
+        font-size: 4vw;
+    }
+    .question ul{
+       
+        flex-direction: row;
+        /* align-items: center; */
+    }
+
+    .question li{
+        /* padding: .5rem; */
+    }
+    .question li a{
+        width: 6rem;
+    }
+    .question h3:nth-child(3){
+        font-size: 2.5vw;
+    }
+    .question h3:nth-child(4){
+        font-size: 2.5vw;
+    }
+    footer h3{
+        font-size: 2.5vw;
+        margin-left: 2rem;
+    }
+    .cars{
+        flex-direction: row;
+        /* align-items: center; */
+    }
+    .inspiring-cars{
+        width: 100vw;
+        left:0;
+    }
+    .cars div{
+        /* padding:1rem; */
+    }
+    .car1{
+        width:10rem;
+    }
+    .car2{
+        width:11.8rem;
+    }
+    .car3{
+        width: 15.5rem;
+    }
+    .car1-div h4,.car2-div h4,.car3-div h4{
+        padding-left: 2rem;
+    }
+    .car1-div h5,.car2-div h5,.car3-div h5{
+        padding-left: 2rem;
+    }
+}
