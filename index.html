@@ -8,19 +8,49 @@
 </head>
 
 <body>
-    <nav >
-        <ul class="first-ul">
+    <nav id="nav-large">
+        
+        <ul class="first-ul menu">
             <li><a href="#">Cars</a></li>
             <li><a href="#">Buy</a></li>
             <li><a href="#">Service</a></li>
             <li><a href="#">VR Showroom</a></li>
         </ul>
-        <h1 class="logo">LOGO</h1>
-        <ul class="second-ul">
+        <h1 class="logo">KIA</h1>
+        <div class="menu-toggle" id="mobile-menu" >
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        <ul class="second-ul menu">
             <li><a href="#">Our Manifesto</a></li>
             <li><a href="#">Brand Experience</a></li>
             <li><a href="#">Logo Philosophy</a></li>        
         </ul>
+    </nav>
+
+    <nav id="nav-small">
+        <h1 class="logo">KIA</h1>
+        <div class="menu-toggle" id="mobile-menu" onclick="onclickMenu()">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        <!-- <ul class="first-ul menu">
+            
+        </ul> -->
+        <ul class="second-ul menu">
+            <li><a href="#">Cars</a></li>
+            <li><a href="#">Buy</a></li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#">VR Showroom</a></li>
+            <li><a href="#">Our Manifesto</a></li>
+            <li><a href="#">Brand Experience</a></li>
+            <li><a href="#">Logo Philosophy</a></li>        
+        </ul>
+       
+      
+      
     </nav>
     <div class="hero">
         <img class="hero-img" src="Assets/hero image.png"/>
@@ -115,6 +145,7 @@
         <button>Share</button>
     </div>
     
+    
 </body>
 
 <footer>
@@ -140,4 +171,13 @@
         </div>
     </div>
 </footer>
+<script>
+   
+   function onclickMenu() {
+
+    // document.querySelector('#nav-small .first-ul').classList.toggle("active");    
+    document.querySelector('#nav-small .second-ul').classList.toggle("active");   
+     
+    };
+</script>
 </html>
